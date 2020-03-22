@@ -1,12 +1,16 @@
 ---
 layout: post
-title: null
 comments: true
 published: true
+title: ctflearn writeup cryptography
+date: 2020-03-12 13:32:20 +0300
+description: ctflearn writeups cryptography. # Add post description (optional)
+img: crypt(easy).jpg # Add image post (optional)
+fig-caption: ctflearn writeup # Add figcaption (optional)
+tags: [Crptography,writeup,ctflearn,easy]
 ---
 CTFlearn (Capture The Flag) writeups, code snippets, notes, scripts for beginners..
 
-# <u>Cryptography</u> (Easy)
 
 ## Character Encoding
 ---
