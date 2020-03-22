@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How I Rest From Work
+comments: true
 date: 2017-09-12 13:32:20 +0300
 description: did jai edit discription??. # Add post description (optional)
 img: software.jpg # Add image post (optional)
