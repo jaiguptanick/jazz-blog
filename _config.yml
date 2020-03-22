@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Jai Gupta # add your name
-author-img: https://raw.githubusercontent.com/jaiguptanick/writeup/master/images/my_icon.png # add your photo
+author-img: images/my_icon.png # add your photo
 about-author: Cyber Security Enthusiast. Always hungry to keep learning. # add description
 social-twitter: jaiguptanick # add your Twitter handle
 social-facebook: jaiguptanick # add your Facebook handle
@@ -20,7 +20,7 @@ social-linkedin: jaiguptanick # add your Linkedin handle
 social-email: jaiguptanick@gmail.com # add your Email address
 
 # Disqus
-discus-identifier:  # add your discus identifier
+discus-identifier: jaiguptanick # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
