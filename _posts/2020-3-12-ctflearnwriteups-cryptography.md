@@ -5,7 +5,7 @@ published: true
 title: ctflearn writeup cryptography
 date: 2020-03-12 13:32:20 +0300
 description: ctflearn writeups cryptography. # Add post description (optional)
-img: crypt(easy).jpg # Add image post (optional)
+img: crypt(easy).jpg
 fig-caption: ctflearn writeup # Add figcaption (optional)
 tags: [Crptography,writeup,ctflearn,easy]
 ---
@@ -42,6 +42,7 @@ As the challange name suggest it is converted into base64 encoding.
 >There is a technique called bruteforce. Message: q{vpln'bH_varHuebcrqxetrHOXEj No key! Just brute .. brute .. brute ... :D
 
 This level again requires brute-forcing XOR. This online [tool](https://gchq.github.io/CyberChef/) can easily do this with the key 17.
+
 ![img]({{ site.baseurl }}/images/1_bruXOR_1.png)
 
 
@@ -60,6 +61,7 @@ The level can be solved by just converting the Binary to Text.
 gwox{RgqssihYspOntqpxs}
 
 The given text is Vigenere Cipher and the key is **blorpy**.You can use this online [tool](https://www.dcode.fr/vigenere-cipher).
+
 ![img]({{ site.baseurl }}/images/2_vugenere_1.png)
 
 ```Flag-FLAG{CiphersAreAwesome}```
@@ -69,13 +71,16 @@ The given text is Vigenere Cipher and the key is **blorpy**.You can use this onl
 >..-. .-.. .- --. ... .- -- ..- . .-.. -- --- .-. ... . .. ... -.-. --- --- .-.. -... -.-- - .... . .-- .- -.-- .. .-.. .. -.- . -.-. .... . . ...
 
 This representation is morse code. Use this online [tool](https://gchq.github.io/CyberChef/) to decode.
+
 ![img]({{ site.baseurl }}/images/3_morse_code.png)
+
 
 ## HyperStream Test #2
 ---
 >I love the smell of bacon in the morning! ABAAAABABAABBABBAABBAABAAAAAABAAAAAAAABAABBABABBAAAAABBABBABABBAABAABABABBAABBABBAABB
 
 The above text is encoded as **Bacon Cipher** which can be decoded by this online [Tool](https://gchq.github.io/CyberChef/)
+
 ![img]({{ site.baseurl }}/images/4_HYPER_1.png)
 
 ```Flag-ILOUEBACONDONTYOU```
