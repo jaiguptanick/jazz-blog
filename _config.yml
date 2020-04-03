@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Jai Gupta # add your name
-author-img: images/my_icon.png # add your photo
+author-img: my_icon.png # add your photo
 about-author: Cyber Security Enthusiast. Always hungry to keep learning. # add description
 social-twitter: jaiguptanick # add your Twitter handle
 social-facebook: jaiguptanick # add your Facebook handle
